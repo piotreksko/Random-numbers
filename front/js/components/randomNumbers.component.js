@@ -48,7 +48,7 @@ RandomNumbers.prototype.render = function() {
         numbersArray.push(number.id);
     });
 
-    sortByPopularity(numbersArray);
+    updateValues(numbersArray);
 
     document.getElementById('random-numbers').innerHTML = '';
     this.randomNumbers.forEach(function(number) {
@@ -59,8 +59,8 @@ RandomNumbers.prototype.render = function() {
     });
 };
 
-//Sort by key values
-function sortByPopularity(array) {
+//Update key values
+function updateValues(array) {
     numbersArray.forEach(function(value) {
         popularity[value] = 0;
     });
