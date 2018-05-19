@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,600');
+
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, #dbdbdb 0%, #b43d3d 100%) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.main-container {
+  width: 60%;
+  margin: 2% auto;
+  background-color: #fff;
+  border: none;
+  border-radius: .625rem;
+  box-shadow: 0 0.5rem 2rem rgba(90, 97, 105, 0.1), 0 0.9rem 1.4rem rgba(90, 97, 105, 0.1), 0 0.25rem 0.5rem rgba(90, 97, 105, 0.12), 0 0.1rem 0.2rem rgba(90, 97, 105, 0.1);
+  padding: 1em;
+}
+
+.flexbox-container {
+	display: -ms-flex;
+	display: -webkit-flex;
+	display: flex;
+}
+
+.flexbox-container > div {
+	width: 50%;
+	padding: 10px;
+}
+
+.flexbox-container > div:first-child {
+	margin-right: 20px;
+}
+
+/*-- Text styling --*/
+
+h1 {
+  font-family: courier;
+  margin-top: 0;
+  margin-bottom: .3rem;
+}
+
+h4 {
+  margin: 2rem 0;
+}
+
+h5 {
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+}
+
+.random-numbers {
+
+}
+
+
+@media only screen and (max-width: 900px) {
+  .table-fill {
+    max-width: 100%;
+    width: 95%;
+  }
+  .main-container {
+    width: 90%;
+  }
+
+}
